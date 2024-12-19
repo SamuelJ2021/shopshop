@@ -1,0 +1,71 @@
+body{
+	background-color: #f0f0f0;/*#44fb78;*/
+    font-family: "Verdana", Geneva, Tahoma, sans-serif;
+}
+
+
+h1 {
+	color: #fa2f2f;/*ff4040*/
+	text-align: center;
+	font-size: 60px;
+	font-family: "Garamond";
+}
+
+/*h2 {
+	color: #2336fa;
+	font-size: 20px;
+	font-family: "Times New Roman";
+}
+
+h3 {
+	margin: auto;
+	font-size: 20px;
+	font-family: "Garamond";
+}*/
+
+h2, h3 {
+    color: #2a52be; /* Bleu plus profond pour un contraste agréable */
+    font-family: "Garamond";
+    margin: 15px 0;
+}
+
+#menu:link, #menu:visited, #menusimple:link, #menusimple:visited {
+    background-color: #ff6666; /* Rouge plus doux mais toujours vibrant */
+    color: #000;
+    padding: 14px 25px;
+    font-size: 24px; /* Taille des boutons ajustée */
+    border-radius: 6px; /* Coins légèrement arrondis pour moderniser */
+}
+
+#menu:hover, #menu:active, #menusimple:hover, #menusimple:active {
+    background-color: #e0e04f; /* Une transition plus douce vers le jaune */
+    color: #000;
+    transition-duration: 0.25s;
+}
+
+iframe {
+    margin: 25px auto;
+    border: none;
+    width: 98%;
+    height: auto;
+}
+
+table {
+    margin: 35px auto;
+    border-width: 2px;
+    border-color: #2a52be; /* Harmonisation avec le bleu utilisé dans les titres */
+    vertical-align: top;
+    width: 95%;
+}
+
+@media (max-width: 769px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2, h3 {
+        font-size: 18px;
+    }
+    table {
+        width: 90%;
+    }
+}
